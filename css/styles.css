@@ -1,0 +1,292 @@
+@import url(/scss/base/normalize.css);
+.theme__colors.grid__col--12, .theme__colors.grid__col--8, .theme__colors.grid__col--7, .theme__colors.grid__col--6, .theme__colors.grid__col--5, .theme__colors.grid__col--4, .theme__colors.grid__col--3 {
+  width: 100%;
+  padding: .5em;
+  margin: .5em 0;
+  color: #555;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.61; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #555; }
+
+.grid__row {
+  margin: 1em 0; }
+
+.theme__colors.grid__col--12 {
+  background-color: #80e8d1; }
+.theme__colors.grid__col--8 {
+  background-color: #fd9f85; }
+.theme__colors.grid__col--7 {
+  background-color: #ec9fa3; }
+.theme__colors.grid__col--6 {
+  background-color: #3fabca; }
+.theme__colors.grid__col--5 {
+  background-color: #88d9a0; }
+.theme__colors.grid__col--4 {
+  background-color: #7ee6fd; }
+.theme__colors.grid__col--3 {
+  background-color: #deb2ee; }
+
+.card {
+  margin-bottom: 5em; }
+
+.headline--primary {
+  margin-left: 1em;
+  color: #58e1c1; }
+
+.headline--secondary {
+  font-weight: 300; }
+
+.blockquote {
+  padding-left: .5em;
+  margin: 1em 0 0 1em;
+  font-size: 1.5em;
+  font-style: oblique;
+  border-left: 10px solid #58e1c1;
+  border-radius: 4px; }
+
+.nav {
+  list-style: none;
+  margin: 3em 0;
+  display: flex;
+  flex-direction: column; }
+
+.nav__item {
+  padding: 1em;
+  text-align: center;
+  border-radius: 4px; }
+
+.nav__item:first-child {
+  background-color: #58e1c1; }
+
+.nav__item:first-child a {
+  color: #fff; }
+
+.link {
+  color: #51ddfc; }
+
+.form {
+  margin-bottom: 3em; }
+
+.form__label--hidden {
+  display: none; }
+
+.form__input {
+  width: 100%;
+  padding: .5em 0;
+  margin: 1em 0;
+  border-top: none;
+  border-right: none;
+  border-bottom: 4px solid #58e1c1;
+  border-left: none; }
+
+.img--logo {
+  display: block;
+  margin: 0 auto; }
+
+.img--avatar {
+  display: block;
+  margin: 0 auto; }
+  @media (min-width: 769px) {
+    .img--avatar {
+      margin: 3em auto; } }
+
+.img--frame {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5%;
+  margin: 3em 0;
+  border: 1px solid #c1c1c1; }
+
+.btn--default {
+  width: 100%;
+  padding: 1em;
+  margin: .5em 0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #51ddfc; }
+.btn--success {
+  width: 100%;
+  padding: 1em;
+  margin: .5em 0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #63cc82; }
+.btn--error {
+  width: 100%;
+  padding: 1em;
+  margin: .5em 0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #e4757a; }
+.btn--warning {
+  width: 100%;
+  padding: 1em;
+  margin: .5em 0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #fd7856; }
+.btn--info {
+  width: 100%;
+  padding: 1em;
+  margin: .5em 0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #927bc1; }
+
+@media (min-width: 769px) {
+  .nav {
+    flex-direction: row;
+    margin: 1.5em 2em 3em 0; }
+
+  .grid__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden; }
+
+  .grid__col--3 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--3:last-of-type {
+      margin-right: 0; }
+  .grid__col--4 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important;
+    flex: 1 !important; }
+    .grid__col--4:last-of-type {
+      margin-right: 0; }
+  .grid__col--5 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important;
+    flex: 1 !important; }
+    .grid__col--5:last-of-type {
+      margin-right: 0; }
+  .grid__col--6 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--6:last-of-type {
+      margin-right: 0; }
+  .grid__col--7 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important;
+    flex: 1.5; }
+    .grid__col--7:last-of-type {
+      margin-right: 0; }
+  .grid__col--8 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important;
+    flex: 2 !important; }
+    .grid__col--8:last-of-type {
+      margin-right: 0; }
+  .grid__col--12 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--12:last-of-type {
+      margin-right: 0; }
+
+  .grid__col--3 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--3:last-of-type {
+      margin-right: 0; }
+
+  .grid__col--4 {
+    flex: 1 !important;
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--4:last-of-type {
+      margin-right: 0; }
+
+  .grid__col--5 {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--5:last-of-type {
+      margin-right: 0; }
+
+  .grid__col--6 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--6:last-of-type {
+      margin-right: 0; }
+
+  .grid__col--7 {
+    flex: 1.5;
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--7:last-of-type {
+      margin-right: 0; }
+
+  .grid__col--8 {
+    flex: 2 !important;
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--8:last-of-type {
+      margin-right: 0; }
+
+  .grid__col--12 {
+    box-sizing: border-box;
+    padding: 0 1em;
+    margin: 0.5em !important; }
+    .grid__col--12:last-of-type {
+      margin-right: 0; }
+
+  .btn--default {
+    width: auto;
+    padding: .5em 2em;
+    margin: 0 1em; }
+  .btn--success {
+    width: auto;
+    padding: .5em 2em;
+    margin: 0 1em; }
+  .btn--error {
+    width: auto;
+    padding: .5em 2em;
+    margin: 0 1em; }
+  .btn--warning {
+    width: auto;
+    padding: .5em 2em;
+    margin: 0 1em; }
+  .btn--info {
+    width: auto;
+    padding: .5em 2em;
+    margin: 0 1em; }
+
+  .centered {
+    flex: 0 0 58.3% !important; } }
+
+/*# sourceMappingURL=styles.css.map */

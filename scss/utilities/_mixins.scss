@@ -1,0 +1,44 @@
+@mixin row-flex{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    overflow:hidden;
+}
+@mixin avatar-mq{
+    @media (min-width: $brk-point-lg){
+        margin:3em auto;
+    }
+}
+@mixin nav-flex{
+    display:flex;
+    flex-direction:column;
+}
+@mixin btn($mod){
+    &--#{$mod}{
+        width:100%;
+        padding:1em;
+        margin:.5em 0;
+        color:#fff;
+        border:none;
+        border-radius:4px;
+        @content;
+    }
+}
+@mixin btn-mq($mod){
+    &--#{$mod}{
+        width:auto;
+        padding:.5em 2em;
+        margin:0 1em;
+    }
+}
+@mixin grid-col($elem){
+    &__#{$elem}{
+        box-sizing:border-box;
+        padding:0 1em;
+        margin:.5em!important;
+        &:last-of-type{
+            margin-right:0;
+        }
+        @content;
+    }
+}

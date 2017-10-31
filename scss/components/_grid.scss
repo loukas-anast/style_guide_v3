@@ -1,0 +1,52 @@
+.grid__row{
+    margin:1em 0;
+}
+.theme__colors{
+    &.grid__col--12{
+        @extend %grid-col;
+        background-color:$grid-color-12;
+    }
+    &.grid__col--8{
+        @extend %grid-col;
+        background-color:$grid-color-8;
+    }
+    &.grid__col--7{
+        @extend %grid-col;
+        background-color:$grid-color-7;
+    }
+    &.grid__col--6{
+        @extend %grid-col;
+        background-color:$grid-color-6;
+    }
+    &.grid__col--5{
+        @extend %grid-col;
+        background-color:$grid-color-5;
+    }
+    &.grid__col--4{
+        @extend %grid-col;
+        background-color:$grid-color-4;
+    }
+    &.grid__col--3{
+        @extend %grid-col;
+        background-color:$grid-color-3;
+    }
+}
+.card{
+    margin-bottom:5em;
+}
+.headline--primary{
+    margin-left:1em;
+    color:#58e1c1;
+}
+.headline--secondary{
+    font-weight:300;
+}
+
+.blockquote{
+    padding-left:.5em;
+    margin:1em 0 0 1em;
+    font-size:1.5em;
+    font-style:oblique;
+    border-left:10px solid #58e1c1;
+    border-radius:4px;
+}

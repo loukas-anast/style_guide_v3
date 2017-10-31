@@ -1,0 +1,17 @@
+.img--logo{
+    display:block;
+    margin:0 auto;
+}
+.img--avatar{
+    display:block;
+    margin:0 auto;
+    @include avatar-mq;
+}
+.img--frame{
+    display:block;
+    width:100%;
+    box-sizing:border-box;
+    padding:5%;
+    margin:3em 0;
+    border:1px solid #c1c1c1;
+}

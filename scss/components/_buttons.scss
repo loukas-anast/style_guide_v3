@@ -1,0 +1,17 @@
+.btn{
+    @include btn(default){
+        background-color:$default;
+    }
+    @include btn(success){
+        background-color:$success;
+    }
+    @include btn(error){
+        background-color:$error;
+    }
+    @include btn(warning){
+        background-color:$warning;
+    }
+    @include btn(info){
+        background-color:$info;
+    }
+}
