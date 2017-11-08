@@ -1,4 +1,4 @@
-@import url(/scss/base/normalize.css);
+@import url(../scss/base/normalize.css);
 .theme__colors.grid__col--12, .theme__colors.grid__col--8, .theme__colors.grid__col--7, .theme__colors.grid__col--6, .theme__colors.grid__col--5, .theme__colors.grid__col--4, .theme__colors.grid__col--3 {
   width: 100%;
   padding: .5em;
@@ -13,7 +13,7 @@
   margin: 0;
   line-height: 1.61; }
 
-a {
+.nav__item a {
   color: inherit;
   text-decoration: none; }
 
